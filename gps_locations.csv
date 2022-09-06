@@ -1,0 +1,23 @@
+loc_number,location,loc_code,loc_desc,lat,lng,elev,dev_height
+1,Constitutional Hill,ch1,attached to metal lighting pole,53.3536,-6.27302,18,3
+2,Beresford,bre2,inside first floor window ,53.3499,-6.27384,12,4.5
+3,Broadstone LUAS,bro_luas3,attached to metal lighting pole,53.3544,-6.27303,21,3
+4,Grangegorman LUAS,gg_luas4,attached to metal lighting pole,53.3564,-6.27746,24,3
+5,Clocktower meeting,ct_m5,inside first floor window ,53.3544,-6.27823,20,3
+5,Clocktower meeting,ct_m5,inside first floor window ,53.3544,-6.27823,20,3
+6,Clocktower office,ct_office6,inside first floor window ,53.355,-6.27841,21,3.5
+6,Clocktower office,ct_office6,inside first floor window ,53.355,-6.27841,21,3.5
+7,Rathdown Access,r_ac7,inside first floor window ,53.3548,-6.27904,22,3.5
+7,Rathdown Access,r_ac7,inside first floor window ,53.3548,-6.27904,22,3.5
+8,Rathdown Store,r_st8,inside ground floor window ,53.3551,-6.27963,22,1.15
+8,Rathdown Store,r_st8,inside ground floor window ,53.3551,-6.27963,22,1.15
+9,Northhouse Art,nh_ar9,inside first floor window ,53.3563,-6.28405,28,4
+10,Northhouse Annex,nh_a10,inside first floor window ,53.3558,-6.283,27,3.5
+10,Northhouse Annex,nh_a10,inside first floor window ,53.3558,-6.283,27,3.5
+11,Blend cafe,bc11,inside ground floor window ,53.3559,-6.28709,28,1
+12,Fingall place,fp12,attached to metal pipe near CCTV,53.3544,-6.28543,22,2.5
+13,Pedestrian pathway,pp13,attached to metal lighting pole,53.3535,-6.28141,19,3
+14,Kirwan,kir14,inside ground floor window ,53.353,-6.28152,19,1.5
+15,G campus by church,g_ch15,attached to metal lighting pole,53.3536,-6.27958,20,3
+16,Parkhouse,ph16,attached to metal lighting pole,53.3576,-6.28641,32,3
+17,HSE gate,hse17,attached to metal lighting pole,53.3581,-6.28485,29,3
