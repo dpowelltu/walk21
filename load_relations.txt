@@ -1,0 +1,8 @@
+//load relation data
+
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/dpowelltu/walk21/main/routes.csv' AS row
+WITH row WHERE row.start_loc IS NOT NULL
+WITH row
+MATCH (l1:Loc), (l2:Loc)
+WHERE  l1.loc_code=row.start_loc AND l2.loc_code=row.end_loc
+CREATE (l1)-[:CONNECTS {walk_distance:row.walk_distance, walk_time:row.walk_time, distance:row.distance, time:row.time } ]->(l2);

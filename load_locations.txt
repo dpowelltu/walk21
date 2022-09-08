@@ -1,0 +1,13 @@
+// load node data
+// first clear any existing node locations
+MATCH (n:Loc) DETACH DELETE n;
+
+// load location data from git hub CSV file. 
+
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/dpowelltu/walk21/main/gps_locations.csv' AS row
+WITH row WHERE row.location IS NOT NULL
+WITH row
+CREATE (n:Loc {loc_number: row.loc_number, location: row.location, loc_code: row.loc_code, loc_desc: row.loc_desc,
+ gps : point({longitude: toFloat(row.lng), latitude: toFloat(row.lat) }),
+ elev: row.elev, dev_height: row.dev_height  })
+RETURN *
