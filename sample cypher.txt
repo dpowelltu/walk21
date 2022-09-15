@@ -1,0 +1,9 @@
+// our are walking route optimal? 
+
+match(n:Loc)-[r:CONNECTS]-() where toFloat(r.walk_distance) > 2.5*toFloat(r.distance) return (r);
+
+
+//distance between two nodes
+
+MATCH (n1:Loc {loc_code: "ph16"}),(n2:Loc {loc_code: "fp12"})  RETURN point.distance(n1.gps,n2.gps)
+
